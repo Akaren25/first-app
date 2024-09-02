@@ -1,0 +1,41 @@
+.title {
+  color: rgb(190, 113, 142);
+  height: 5h;
+  text-align: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: #613434;
+  padding: 20px;
+  height: 100vh; /* Ocupa a altura total da tela */
+  background-color: #ebf3c7; /* Cor de fundo padrão caso a imagem não carregue */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 80%; /* Ajuste a largura conforme necessário */
+  height: 400px; /* Ajuste a altura conforme necessário */
+  margin-bottom: 20px;
+}
+
+.backgroundImage {
+  border-radius: 8px; /* Adiciona bordas arredondadas se desejado */
+}
+
